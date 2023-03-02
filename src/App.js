@@ -40,9 +40,9 @@ function App() {
         <>
         <div>
           <h3>Your new address: {accounts.address}</h3>
-          <h4>Your secreates are here.dont show to anyone</h4>
+          <h4>Your secreates are here, !dont show anyone¡</h4>
           <button onClick={(e)=>{setAccounts({...accounts,
-      show: !accounts
+      show: !accounts.show
     })}}> see my secrets ...</button>
           {accounts.show && 
           <>
